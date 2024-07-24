@@ -15,7 +15,6 @@
     flex: auto;
     margin-top: 20px;
     background-color: #1f2937;
-    flex: 1;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -28,15 +27,13 @@
     text-align: center;
 }
 .header-logo p {
-    flex: auto;
     color: #F9FAF8;
     font-size: 24px;
 }
 .nav-bar {
-
     flex: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     flex-wrap: wrap;
     align-items: center;
@@ -44,7 +41,7 @@
 
 }
 .nav-bar a {
-    min-width: 150px;
+    min-width: 200px;
     flex: auto;
     text-decoration: none;
     color: #E5E7EB;
@@ -56,25 +53,34 @@
     flex: auto;
     background-color: #1f2937;
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-left: 200px;
-    margin-right: 150px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    
 }
 
 .content-action {
-    flex: 1 1 0;
+    flex: 1 2 auto;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     gap: 15px;
+    text-align: center;
+    
 }
-
+.content-image {
+    min-width: 200px;
+    flex: 1 1 auto;
+    text-align: center;
+    background-color: #E5E7EB;
+    min-height: 100px;
+}
 .content-action #content-heading {
     flex: auto;
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
+    
 
 }
 
@@ -97,11 +103,7 @@
     height: 40px;
 
 }
-.content-image {
-    flex: 1;
-    text-align: center;
-    background-color: #E5E7EB;
-}
+
 
 
 .after-content {
@@ -202,7 +204,7 @@
 .action-wrapper {
     background-color: #3882f6;
     flex: auto;
-    width: 800px;
+    width: 300px;
     margin-bottom: 50px;
     border-style: solid;
     border-radius: 6px;
@@ -212,15 +214,17 @@
     padding-bottom: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
     
 
 }
 
 .action-wrapper p {
-    flex:  10 1 auto;
-    text-align: left;
-    margin-left: 50px;
+    flex:  1 1 auto;
+    text-align: center;
     font-size: 18px;
     color:#E5E7EB;
     font-weight: bold;
@@ -235,7 +239,7 @@
     font-size: 18px;
     border-radius: 7px;
     border-width: 8px;
-    margin-right: 20px;
+    
 }
 
 .action-placeholder {
