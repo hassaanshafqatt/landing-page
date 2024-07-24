@@ -37,7 +37,7 @@
     text-align: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 15px;
+    gap: 35px;
 
 }
 .nav-bar a {
@@ -47,6 +47,7 @@
     color: #E5E7EB;
     font-size: 18px;
 }
+
 
 
 .header-content {
@@ -72,7 +73,7 @@
     min-width: 200px;
     flex: 1 1 auto;
     text-align: center;
-    background-color: #E5E7EB;
+    background-color: #F9FAF8;
     min-height: 100px;
 }
 .content-action #content-heading {
@@ -130,24 +131,22 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 60px;
+    gap: 15px;
 }
 
 .after-illustration div {
-    
     flex: auto;
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    min-height: 160px;
 }
 
 .after-illustration div p {
     flex: auto;
-    max-width: 70%;
+    max-width: 50%;
     color: #1f2937;
     font-weight: 120 ;
 }
